@@ -1,0 +1,65 @@
+@import "colores";
+@import "tamanios";
+
+* {font-family: Raleway;}
+
+h1 {
+    font-size: $titulo;
+}
+
+.tituloPrincipal {
+    font-size: ($titulo)+50;
+    text-decoration: none;
+}
+
+
+
+#fotoPortada {
+    margin-left: 50px;
+}
+
+.parrafo {
+    font-size: 70px;
+    color: $bordo;
+}
+
+.parrafo-otro {
+    @extend .parrafo;
+    background-color: cadetblue;
+}
+
+.insta {
+    width: 15px;
+}
+
+
+
+.bio {
+    border: solid black 1px;
+}
+
+.hola {
+    background-color: crimson;
+    p {
+        font-style: solid;
+    }
+}
+
+.fin {
+    background-color: lavender;
+    h3 {
+        font-style: solid;
+        p { font-style: oblique;
+
+        }
+    }
+}
+
+@mixin sizes ($width, $height){
+    height:$height;
+    width: $width;
+}
+
+.jose {
+    @include sizes (150px, 200px)
+}
