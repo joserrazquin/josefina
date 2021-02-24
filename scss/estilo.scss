@@ -7,12 +7,6 @@ h1 {
     font-size: $titulo;
 }
 
-.tituloPrincipal {
-    font-size: ($titulo)+50;
-    text-decoration: none;
-}
-
-
 
 #fotoPortada {
     margin-left: 50px;
@@ -75,4 +69,29 @@ h1 {
   border: 25px solid green;
   padding: 25px;
   margin: 25px;
+}
+
+.main {
+
+    &__intro {
+        position: absolute;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+
+        &-containerTitle {
+            flex-basis: 40%;
+            font-size: ($titulo)+50;
+            text-decoration: none;
+            display: flex;
+            justify-content: left;
+
+        }
+    }
+
+    &__carousel {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+    }
 }
