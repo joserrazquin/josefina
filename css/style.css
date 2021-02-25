@@ -4,5 +4,63 @@
 h1 {
   font-size: 100px; }
 
-.biografia {
-  background-color: #D2C6E3; }
+#fotoPortada {
+  margin-left: -58px; }
+
+.parrafo, .parrafo-otro {
+  font-size: 70px;
+  color: #AD0C1B; }
+
+.parrafo-otro {
+  background-color: cadetblue; }
+
+.insta {
+  width: 15px; }
+
+.bio {
+  border: solid black 1px; }
+
+.hola {
+  background-color: crimson; }
+  .hola p {
+    font-style: solid; }
+
+.fin {
+  background-color: lavender; }
+  .fin h3 {
+    font-style: solid; }
+    .fin h3 p {
+      font-style: oblique; }
+
+.jose {
+  height: 200px;
+  width: 150px; }
+
+.rrss {
+  object-fit: contain;
+  width: 50px;
+  height: 50px; }
+
+.footerIndex__creditos-firma {
+  width: 400px;
+  padding: 25px 25px 25px 25px;
+  margin: 68px 25px 25px 148px; }
+
+.main__intro {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; }
+  .main__intro-containerLink {
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.main__carousel {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh; }
